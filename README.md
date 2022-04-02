@@ -1,32 +1,33 @@
-UTN Mg. thesis template
+Template de tesis Mg. de UTN
 ========================
 
-> A LaTeX Mg. thesis template for Universidad Tecnológica Nacional (UTN).
+> Template de Tesis de Magíster para la Universidad Tecnológica Nacional (UTN)
 
 [![Build Status](https://api.travis-ci.org/kks32/phd-thesis-template.svg)](https://travis-ci.org/kks32/phd-thesis-template)
 [![License MIT](http://img.shields.io/badge/license-MIT-brightgreen.svg)](license.md)
 [![Version](http://img.shields.io/badge/version-2.2-brightgreen.svg)](https://github.com/kks32/phd-thesis-template/releases/latest)
 
-## Author(s)
+## Author
 *   Mihdí Caballero
 
 --------------------------------------------------------------------------------
 ## To-Do List
-- [ ] Ver que hace option numbered
+- [ ] Ver que hace option numbered.
 - [ ] Ver que cambia la opción "print", además de los colorlinks.
-- [ ] Dejar A4paper como default
+- [ ] Dejar A4paper como default.
 - [ ] Definir si formato de hoja es oneside o twoside y dejarlo fijo.
 - [ ] Dejar fuente times como default y dejarlo fijo.
 - [ ] Dejar bibLaTeX como default con APA y dejarlo fijo.
 - [ ] Definir el estilo de encabezado y pie de página y dejarlo fijo.
 - [ ] Ver como funciona el index y si se queda o no.
+- [ ] Poner link a las circulares que definen el estilo de la tesis.
+- [ ] Automatizar GitHub Action para que compile la tesis.
+- [ ] Hacer un release con el nuevo template y ajustar link.
 
 --------------------------------------------------------------------------------
 ## Features
 
 *   Conforms to the Student Registry PhD dissertation guidelines and CUED PhD guidelines
-
-*   Supports LaTeX, XeLaTeX and LuaLaTeX
 
 *   Adaptive Title Page: Title page adapts to title length
 
@@ -51,21 +52,6 @@ UTN Mg. thesis template
 *   Draft mode: Draft water mark, timestamp, version numbering and line numbering
 
 *   Add supervisor and/or advisor to your PhD thesis or MPhil report
-
-*   A LyX Template is now available at [https://github.com/kks32/PhDThesisLyX/](https://github.com/kks32/PhDThesisLyX/)
-
---------------------------------------------------------------------------------
-
-## Building your thesis - LaTeX / PDFLaTeX
-
-### Using the batch file on Windows OS (PDFLaTeX)
-
-*    Open command prompt and navigate to the directory with the tex file. Run:
-
-    `compile-thesis-windows.bat`.
-
-*    Alternatively, double click on `compile-thesis-windows.bat`
-
 
 -------------------------------------------------------------------------------
 
