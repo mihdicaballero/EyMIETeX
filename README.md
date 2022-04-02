@@ -11,6 +11,17 @@ UTN Mg. thesis template
 *   Mihdí Caballero
 
 --------------------------------------------------------------------------------
+## To-Do List
+[ ] - Ver que hace option numbered
+[ ] - Ver que cambia la opción "print", además de los colorlinks.
+[ ] - Dejar A4paper como default
+[ ] - Definir si formato de hoja es oneside o twoside y dejarlo fijo.
+[ ] - Dejar fuente times como default y dejarlo fijo.
+[ ] - Dejar bibLaTeX como default con APA y dejarlo fijo.
+[ ] - Definir el estilo de encabezado y pie de página y dejarlo fijo.
+[ ] - Ver como funciona el index y si se queda o no.
+
+--------------------------------------------------------------------------------
 ## Features
 
 *   Conforms to the Student Registry PhD dissertation guidelines and CUED PhD guidelines
