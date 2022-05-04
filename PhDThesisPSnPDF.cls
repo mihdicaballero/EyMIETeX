@@ -197,7 +197,7 @@ footnotes.}
 % Column layout
 \newif\if@oneside\@onesidefalse
 \DeclareOption{oneside}{\PassOptionsToClass{\CurrentOption}{book}\@onesidetrue}%
-\DeclareOption{twoside}{\PassOptionsToClass{\CurrentOption}{book}}%
+\DeclareOption{}{\PassOptionsToClass{\CurrentOption}{book}}%
 
 % ****************************** Draft Option **********************************
 \newif\ifsetDraft\setDraftfalse
@@ -620,7 +620,7 @@ supported!}
     anchorcolor=black
   }
   \ifsetCustomMargin
-  % Margin to be define in preamble using geometry package
+  % Margin to be define in preamble using geometry package ("_settings" folder)
   \else
     \RequirePackage[paper=\PHD@papersize,hmarginratio=1:1,
       vmarginratio=1:1,scale=0.75,bindingoffset=5mm]{geometry}

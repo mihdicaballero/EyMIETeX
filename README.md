@@ -13,7 +13,9 @@ Template de tesis Mg. de UTN
 --------------------------------------------------------------------------------
 ## To-Do List
 - [ ] Ver que hace option numbered.
-- [ ] Ver que cambia la opción "print", además de los colorlinks.
+- [*] Ver que cambia la opción "print", además de los colorlinks. 
+- [ ] Dejar PRINT como formato único de PDF. No mostrarlo como opciones de readme. Que quede igual en la clase cls. 
+- [ ] Definir los márgenes en línea 595 con "Print / Online"
 - [ ] Dejar A4paper como default.
 - [ ] Definir si formato de hoja es oneside o twoside y dejarlo fijo.
 - [ ] Dejar fuente times como default y dejarlo fijo.
