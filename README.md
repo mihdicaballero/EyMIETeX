@@ -12,18 +12,23 @@ Template de tesis Mg. de UTN
 
 --------------------------------------------------------------------------------
 ## To-Do List
-- [ ] Ver que hace option numbered.
-- [*] Ver que cambia la opción "print", además de los colorlinks. 
-- [ ] Dejar PRINT como formato único de PDF. No mostrarlo como opciones de readme. Que quede igual en la clase cls. 
-- [ ] Definir los márgenes en línea 595 con "Print / Online"
-- [ ] Dejar A4paper como default.
-- [ ] Definir si formato de hoja es oneside o twoside y dejarlo fijo.
-- [ ] Dejar fuente times como default y dejarlo fijo.
+- [x] Ver que hace option numbered. Pasa estilo de bibliografía a numerado. No lo comento en Readme.
+- [x] Ver que cambia la opción "print", además de los colorlinks. 
+- [x] Dejar PRINT como formato único de PDF. No mostrarlo como opciones de readme.
+- [x] Definir los márgenes en línea 595 con "Print / Online". Definí valores un poco mayores a los mínimos de la circular: top=3cm,bottom=3cm,left=1.6in,right=3cm. Claudio
+- [x] Dejar A4paper como default.
+- [x] Definir si formato de hoja es oneside o twoside y dejarlo fijo. Va twoside fijo. El problema con esto es que si se ve digital, cada página el texto se va moviendo de lado y queda medio raro. Tal vez si hay que tener una versión de impresión o digital o sino tener márgenes simétricos a izquierda y derecha. Claudio
+- [x] Dejar fuente times como default y dejarlo fijo.
+- [x] Interlineado debe ser de una línea y media, pero nadie nunca sabe cuanto es exactamente. En template sugieren 1.20, lo cual se ve bastante bien. Claudio
+- [x] Pasar a idioma español con babel.
+- [ ] Ver qué ponemos como College. Claudio
+- [ ] Ubicar bien las referencias bibliográficas
 - [ ] Dejar bibLaTeX como default con APA y dejarlo fijo.
 - [ ] Definir el estilo de encabezado y pie de página y dejarlo fijo.
-- [ ] Ver como funciona el index y si se queda o no.
+- [ ] Ver si precisamos o no lista de abrevaciones. Creo que es el Index. Claudio
+- [ ] Espaciodo de circular luego de subtítulo parece un montón 3 espacio. ¿Mejor dejar por defecto nomás? Claudio
 - [ ] Poner link a las circulares que definen el estilo de la tesis.
-- [ ] Automatizar GitHub Action para que compile la tesis.
+- [ ] Terminar de traducir el README.
 - [ ] Hacer un release con el nuevo template y ajustar link.
 
 --------------------------------------------------------------------------------
@@ -57,27 +62,16 @@ Template de tesis Mg. de UTN
 
 -------------------------------------------------------------------------------
 
-## Usage details
+## Detalles de uso
 
-Thesis information such as title, author, year, degree, etc., and other meta-data can be modified in `thesis-info.tex`
+La información de la tesis, como título, autor, año, grado, etc., y otros metadatos se pueden modificar en `thesis-info.tex`
 
-### Class options
+### Opciones de clase
 
-The class file, `PhDThesisPSnPDF`, is based on the standard `book` class
+El archivo de clase, `PhDThesisPSnPDF`, se basa en la clase estándar `book`.
 
-It supports the following custom options in the documentclass in thesis.tex:
+Admite las siguientes opciones personalizadas en la clase de documento en `thesis.tex`:
 
-(Usage `\documentclass[a4paper,11pt,print]{PhDThesisPSnPDF}`)
-
-*   `a4paper` (default as per the University guidelines) or `a5paper`: Paper size
-
-*   `11pt` or `12pt`: The University of Cambridge guidelines recommend using a minimum font size of 11pt (12pt is preferred) and 10pt for footnotes. This template also supports `10pt`.
-
-*   `oneside` or `twoside` (default): This is especially useful for printing double side (twoside) or single side.
-
-*   `print`: Supports Print and Online Version with different page margins and hyperlink styles.
-    Use `print` in the options to activate Print Version with appropriate margins and page layout and view styles.
-    Leaving the options field blank will activate Online version.
 
 *   `custommargin`: You can alter the margin dimension for both print and online version by using the keyword `custommargin` in the options. Then you can define the dimensions of the margin in the `preamble.tex` file:
 
@@ -95,18 +89,14 @@ It supports the following custom options in the documentclass in thesis.tex:
 
     _Note_: the package `makeidx` is used to create the index.
 
-*   `abstract`: This option enables only the thesis title page and the abstract with title and author to be printed.
-
 *   `chapter`: This option enables only the specified chapter and it's references. Useful for review and corrections.
 
-*   `draft`: The default draft mode supports some special features such as line numbers, images, and water mark with
-    timestamp and custom text. Position of the text can be modified in `preamble.tex`.
+*   `draft`: El modo de borrador predeterminado admite algunas funciones especiales, como números de línea, imágenes y marca de agua con
+     marca de tiempo y texto personalizado. La posición del texto se puede modificar en `_settings/preamble.tex`.
 
-*   `draftclassic`: This mode is similar to the default draft mode in the book class. Images are not loaded.
+*   `draftclassic`: Este modo es similar al modo de borrador predeterminado en la clase de libro. Las imágenes no se cargan.
 
-*   `lineno`: Enables pagewise line numbering on the outer edge. You can switch-off line numbering by specifying `nolineno` in the options.
-
-*   `flushleft`: The University recommends using ragged right or flush left alignment for texts. The reason behind this is left justifying a text may exclude a certain readers. Dyslexic people find it hard to read justified text. You can enable `raggedright` option in the document class by passing `flushleft` argument. Default is flush left and right.
+*   `lineno`: Habilita la numeración de líneas por página en el borde exterior. Puede desactivar la numeración de líneas especificando `nolineno` en las opciones.
 
 ### Title page
 

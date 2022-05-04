@@ -240,6 +240,12 @@ supported!}
 
 % ******************************************************************************
 % ******************************** Packages ************************************
+%******************************************************************************
+% ************************** Language *****************************
+\RequirePackage[spanish,es-nodecimaldot]{babel}
+\RequirePackage[utf8]{inputenc}
+
+
 % ******************************************************************************
 % ************************** Layout and Formatting *****************************
 
@@ -278,11 +284,11 @@ supported!}
   \RequirePackage[pdftex]{graphicx}
   \DeclareGraphicsExtensions{.png, .jpg, .pdf}
   \pdfcompresslevel=9
-  \graphicspath{{Figs/Raster/}{Figs/}}
+  \graphicspath{{Figuras/Raster/}{Figuras/}}
 \else
   \RequirePackage{graphicx}
   \DeclareGraphicsExtensions{.eps, .ps}
-  \graphicspath{{Figs/Vector/}{Figs/}}
+  \graphicspath{{Figuras/Vector/}{Figuras/}}
 \fi
 
 
@@ -512,6 +518,10 @@ supported!}
   biblatex package with required style in the Preamble.tex file}
 \fi
 
+% ********************************** Chapter - Section - Subsection spacing **********************************
+\RequirePackage{titlesec}
+%\titlespacing*{\section}{0pt}{0pt}{10ex}		% Espaciado a left, top y bottom de section.
+
 % ********************************** Fonts **********************************
 \RequirePackage{textcomp}
 % Font Selection
@@ -622,13 +632,12 @@ supported!}
   \ifsetCustomMargin
   % Margin to be define in preamble using geometry package ("_settings" folder)
   \else
-    \RequirePackage[paper=\PHD@papersize,hmarginratio=1:1,
-      vmarginratio=1:1,scale=0.75,bindingoffset=5mm]{geometry}
+    \RequirePackage[paper=\PHD@papersize,top=3cm,bottom=3cm,left=1.6in,right=3cm]{geometry}
   \fi
 
   \if@twoside
     \hypersetup{pdfpagelayout=TwoPageRight}
-  \else
+  \else 
     \hypersetup{pdfpagelayout=OneColumn}
   \fi
 
@@ -655,8 +664,7 @@ supported!}
     % Margin to be define in preamble using geometry package
     \else
       % No Margin staggering on Odd and Even side
-      \RequirePackage[paper=\PHD@papersize,hmarginratio=1:1,
-        vmarginratio=1:1,scale=0.75]{geometry} % dvips
+	    \RequirePackage[paper=\PHD@papersize,top=3cm,bottom=3cm,left=1.6in,right=3cm]{geometry}
     \fi
     \hypersetup{pdfpagelayout=OneColumn}
 \fi
@@ -853,11 +861,11 @@ wish to left align your text}
 \newcommand{\supervisor}[1]{\renewcommand{\@supervisor}{#1}\PHD@supervisortrue}
 
 % Supervisor Title (Supervisor - Default, can be changed)
-\newcommand{\@supervisorrole}{Supervisor: }
+\newcommand{\@supervisorrole}{Tutor: }
 \newcommand{\supervisorrole}[1]{\renewcommand{\@supervisorrole}{#1}}
 
 % Supervisor width to align
-\newcommand{\@supervisorlinewidth}{0.35\textwidth}
+\newcommand{\@supervisorlinewidth}{0.55\textwidth}
 \newcommand{\supervisorlinewidth}[1]{\renewcommand{\@supervisorlinewidth}{#1}}
 
 % Advisor
@@ -874,7 +882,7 @@ wish to left align your text}
 \newcommand{\advisorlinewidth}[1]{\renewcommand{\@advisorlinewidth}{#1}}
 
 % Submission Text
-\newcommand{\submissiontext}{This dissertation is submitted for the degree of }
+\newcommand{\submissiontext}{Esta tesis se presenta para la obtención del título de}
 
 % keywords (These keywords will appear in the PDF meta-information
 % called `pdfkeywords`.)
@@ -887,21 +895,21 @@ wish to left align your text}
 \newcommand{\subject}[1]{\renewcommand{\@subject}{#1}}
 
 % Declaration title text
-\newcommand{\@declarationtitle}{Declaration}
+\newcommand{\@declarationtitle}{Declaración}
 
 % Acknowledgment title text
-\newcommand{\@acknowledgementstitle}{Acknowledgements}
+\newcommand{\@acknowledgementstitle}{Agradecimientos}
 
 % Abstract title text
-\newcommand{\@abstracttitle}{Abstract}
+\newcommand{\@abstracttitle}{Resumen}
 
 % Names for the nomenclature groups
-\newcommand{\@nomenclatureromans}{Roman Symbols}
-\newcommand{\@nomenclaturegreeks}{Greek Symbols}
-\newcommand{\@nomenclatureacronyms}{Acronyms / Abbreviations}
-\newcommand{\@nomenclaturesuperscripts}{Superscripts}
-\newcommand{\@nomenclaturesubscripts}{Subscripts}
-\newcommand{\@nomenclatureothers}{Other Symbols}
+\newcommand{\@nomenclatureromans}{Símbolos Romanoes}
+\newcommand{\@nomenclaturegreeks}{Símbolos Griegos}
+\newcommand{\@nomenclatureacronyms}{Acrónimos/Abreviaciones}
+\newcommand{\@nomenclaturesuperscripts}{Superíndices}
+\newcommand{\@nomenclaturesubscripts}{Subíndices}
+\newcommand{\@nomenclatureothers}{Otros Símbolos}
 
 
 % These macros define an environment for front matter that is always
