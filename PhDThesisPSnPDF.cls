@@ -242,7 +242,7 @@ supported!}
 % ******************************** Packages ************************************
 %******************************************************************************
 % ************************** Language *****************************
-\RequirePackage[spanish,es-nodecimaldot]{babel}
+\RequirePackage[spanish,es-nodecimaldot, mexico]{babel}
 \RequirePackage[utf8]{inputenc}
 
 
@@ -284,7 +284,7 @@ supported!}
   \RequirePackage[pdftex]{graphicx}
   \DeclareGraphicsExtensions{.png, .jpg, .pdf}
   \pdfcompresslevel=9
-  \graphicspath{{Figuras/Raster/}{Figuras/}}
+  \graphicspath{{Figuras/}{Figuras/}}
 \else
   \RequirePackage{graphicx}
   \DeclareGraphicsExtensions{.eps, .ps}

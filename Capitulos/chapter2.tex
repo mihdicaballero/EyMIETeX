@@ -1,15 +1,7 @@
 %!TEX root = ../thesis.tex
-%*******************************************************************************
-%****************************** Second Chapter *********************************
-%*******************************************************************************
 
 \chapter{My second chapter}
 
-\ifpdf
-    \graphicspath{{Chapter2/Figs/Raster/}{Chapter2/Figs/PDF/}{Chapter2/Figs/}}
-\else
-    \graphicspath{{Chapter2/Figs/Vector/}{Chapter2/Figs/}}
-\fi
 
 
 \section[Short title]{Reasonably long section title}
@@ -20,6 +12,8 @@ I'm going to randomly include a picture Figure~\ref{fig:minion}.
 
 
 If you have trouble viewing this document contact Krishna at: \href{mailto:kks32@cam.ac.uk}{kks32@cam.ac.uk} or raise an issue at \url{https://github.com/kks32/phd-thesis-template/}
+
+See that \cite{Aup91} and \parencite{Ancey1996} and \textcite{DS57}.
 
 
 %\begin{figure}[htbp!] 
@@ -79,32 +73,29 @@ Ut ultrices lectus sed sagittis varius. Nulla facilisi. Nullam tortor sem, place
 Etiam elementum tristique lacus, sit amet eleifend nibh eleifend sed \footnote{My footnote goes blah blah blah! \dots}. Maecenas dapibu augue ut urna malesuada, non tempor nibh mollis. Donec sed sem sollicitudin, convallis velit aliquam, tincidunt diam. In eu venenatis lorem. Aliquam non augue porttitor tellus faucibus porta et nec ante. Proin sodales, libero vitae commodo sodales, dolor nisi cursus magna, non tincidunt ipsum nibh eget purus. Nam rutrum tincidunt arcu, tincidunt vulputate mi sagittis id. Proin et nisi nec orci tincidunt auctor et porta elit. Praesent eu dolor ac magna cursus euismod. Integer non dictum nunc.
 
 
-\begin{landscape}
 
 \section*{Subplots}
-I can cite Wall-E (see Fig.~\ref{fig:WallE}) and Minions in despicable me (Fig.~\ref{fig:Minnion}) or I can cite the whole figure as Fig.~\ref{fig:animations}
-
-%
-%\begin{figure}
-%  \centering
-%  \begin{subfigure}[b]{0.3\textwidth}
-%    \includegraphics[width=\textwidth]{TomandJerry}
-%    \caption{Tom and Jerry}
-%    \label{fig:TomJerry}   
-%  \end{subfigure}             
-%  \begin{subfigure}[b]{0.3\textwidth}
-%    \includegraphics[width=\textwidth]{WallE}
-%    \caption{Wall-E}
-%    \label{fig:WallE}
-%  \end{subfigure}             
-%  \begin{subfigure}[b]{0.3\textwidth}
-%    \includegraphics[width=\textwidth]{minion}
-%    \caption{Minions}
-%    \label{fig:Minnion}
-%  \end{subfigure}
-%  \caption{Best Animations}
-%  \label{fig:animations}
-%\end{figure}
+I can cite Wall-E (see Fig.~\ref{fig:WallE}) \autoref{fig:Minnion} and \autoref{fig:TomJerry} Minions in despicable me (Fig.~\ref{fig:Minnion}) or I can cite the whole figure as Fig.~\ref{fig:animations}
 
 
-\end{landscape}
+\begin{figure}
+  \centering
+  \begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/capitulo_2/x_vs_y}
+    \caption{Tom and Jerry}
+    \label{fig:TomJerry}   
+  \end{subfigure}             
+  \begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/capitulo_2/x_vs_y}
+    \caption{Wall-E}
+    \label{fig:WallE}
+  \end{subfigure}             
+  \begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/capitulo_2/x_vs_y}
+    \caption{Minions}
+    \label{fig:Minnion}
+  \end{subfigure}
+  \caption{Best Animations}
+  \label{fig:animations}
+\end{figure}
+

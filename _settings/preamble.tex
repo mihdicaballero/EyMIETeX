@@ -11,12 +11,12 @@
 % *****************************************************************************
 % **************************** Custom Packages ********************************
 
-% ************************* Algorithms and Pseudocode **************************
+% ****************** Algorithms and Pseudocode *********************
 
 %\usepackage{algpseudocode}
 
 
-% ********************Captions and Hyperreferencing / URL **********************
+% ***************Captions and Hyperreferencing / URL **********************
 
 % Captions: This makes captions of figures use a boldfaced small font.
 %\RequirePackage[small,bf]{caption}
@@ -41,7 +41,7 @@
 %\usepackage{sty/caption/subcaption}
 \usepackage{subcaption}
 
-% ********************************** Tables ************************************
+% ******************************** Tables ************************************
 \usepackage{booktabs} % For professional looking tables
 \usepackage{multirow}
 
@@ -50,47 +50,32 @@
 %\usepackage{tabularx}
 
 
-% *********************************** SI Units *********************************
+% ******************************* SI Units *********************************
 \usepackage{siunitx} % use this package module for SI units
 
 
-% ******************************* Line Spacing *********************************
+% **************************** Line Spacing *********************************
+ \onehalfspacing
 
-% Choose linespacing as appropriate. Default is one-half line spacing as per the
-% University guidelines
-
-% \doublespacing
-% \onehalfspacing
-% \singlespacing
-
-
-% ************************ Formatting / Footnote *******************************
+% ******************** Formatting / Footnote *****************************
 
 % Don't break enumeration (etc.) across pages in an ugly manner (default 10000)
 %\clubpenalty=500
 %\widowpenalty=500
-
 %\usepackage[perpage]{footmisc} %Range of footnote options
 
 
-% *****************************************************************************
-% *************************** Bibliography  and References ********************
+% *************************************************************************
+% *********************** Bibliography  and References ********************
 
-%\usepackage{cleveref} %Referencing without need to explicitly state fig /table
+\usepackage{hyperref} % Paquete para referenciar con \autoref{} que completa nombre de la referencia: Ecuación, Tabla, Figura
 
-% Add `custombib' in the document class option to use this section
+% Indicar archivo de bibliografía
 \ifuseCustomBib
-   \RequirePackage[square, sort, numbers, authoryear]{natbib} % CustomBib
-
-% If you would like to use biblatex for your reference management, as opposed to the default `natbibpackage` pass the option `custombib` in the document class. Comment out the previous line to make sure you don't load the natbib package. Uncomment the following lines and specify the location of references.bib file
-
-%\RequirePackage[backend=biber, style=numeric-comp, citestyle=numeric, sorting=nty, natbib=true]{biblatex}
-%\addbibresource{References/references} %Location of references.bib only for biblatex, Do not omit the .bib extension from the filename.
-
+	\usepackage[backend=biber, style=numeric-comp, citestyle=numeric, sorting=nty, natbib=true]{biblatex}
+	\addbibresource{Bibliografia/bibliografia.bib} % Ubicación de references.bib solo para biblatex, no omita la extensión .bib del nombre de archivo.
 \fi
-
-% changes the default name `Bibliography` -> `References'
-\renewcommand{\bibname}{References}
+\renewcommand{\bibname}{Bibliografía}
 
 
 % ******************************************************************************
