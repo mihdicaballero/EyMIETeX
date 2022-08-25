@@ -1,7 +1,6 @@
-% ****** Template tesis Maestría Ingeniería Estructural UTN ******************
+% ****** Template para la Especialización y Maestría en Ingeniería Estructural UTN ******
 % Consulte el archivo README.md para obtener información sobre cómo utilizar la plantilla.
-\documentclass[12pt,times,twoside,index, custombib]{PhDThesisPSnPDF}
-
+\documentclass[12pt,times,oneside,index,custombib]{EyMIETeX}
 % ********************** Choosing the Bibliography style ***********************
 % `custombib': Define your own bibliography style in the `preamble.tex' file.
 %              `\RequirePackage[square, sort, numbers, authoryear]{natbib}'.
@@ -27,13 +26,6 @@
 % ******************************* Preámbulo ********************************
 \input{_settings/preamble}	% Preámbulo con paquetes y comandos definidos por el usuario
 \input{thesis-info}			% Información de la tesis, autor y .bib.
-
-% ***************************** Chapter Mode ***********************************
-% Para compilar un capítulo solo, elija la opción `chapter' en la clase de documento
-
-\ifdefineChapter
- \includeonly{Capitulos/chapter3}
-\fi
 
 % ******************************** Front Matter ********************************
 \begin{document}
@@ -64,7 +56,7 @@
 		
 	% Back Matter 
 	% Backmatter should be commented out, if you are using appendices after References
-	%\backmatter
+%	\backmatter
 	
 	% Bibliografía
 	
@@ -72,11 +64,12 @@
 	% Comment out the lines related to natbib above and uncomment the following line.
 	
 	\printbibliography[heading=bibintoc]	
-	% Anexos
+	% Apéndices
 	\begin{appendices} 
-		\include{Anexos/appendix1}
-		\include{Anexos/appendix2}
+		\include{Apendices/Apendice_A}
+		\include{Apendices/Apendice_B}
 	\end{appendices}
+	
 	
 	% ***************************** Index ******************************
 	% VER QUE ES ESTO
