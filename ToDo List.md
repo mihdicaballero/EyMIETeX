@@ -11,13 +11,13 @@ en Readme.
 - [x] Interlineado debe ser de una línea y media, pero nadie nunca sabe cuanto es exactamente. 
 - [x] Pasar a idioma español con babel.
 - [x] Ubicar bien las referencias bibliográficas
-- [ ] Dejar bibLaTeX como default
+- [x] Dejar bibLaTeX como default
+- [x] Ajustar posición de directore y co directores.
 - [ ] Ver cómó funcionan las keywords y donde salen
-- [ ] Dejar estilo APA como fijo
-- [ ] Poner link a las circulares que definen el estilo de la tesis.
-- [ ] Ver si precisamos o no lista de abrevaciones. Creo que es el Index. POnemos lista de 
-abreviaciones pero no el index. Explicar como se usa.
+- [x] Dejar estilo APA como fijo
+- [ ] Definir contenido de relleno del template
 - [ ] Terminar de traducir el README.
+- [ ] Poner link a las circulares que definen el estilo de la tesis.
 - [ ] Hacer pruebas y ver que funcione bien todo.
 - [ ] Hacer un release con el nuevo template y ajustar link.
 
@@ -44,9 +44,8 @@ dejar en la portada. Cuanto menos, mejor. Autor, director, co director (optativo
 - [ ] Ver qué hacemos con el formato de la portada. Jouglard comenta.
 - [ ] Conseguir logo de maestría y de UTN en pdf y en buena calidad. Definir si va logo solo 
 de UTN o logo de maestría
-- [ ] Nomenclatura de la tesis. Lista de símbolos utilizados, ver si lo usamos o no. Lo que trae la tesis no es muy feliz 
-porque requiere mayor configuración del usuario en teXstudio. Se puede usar los glossary como está hecho en UdelaRTeX
-o sino no tener eso en la tesis.
+- [ ] Ver si precisamos o no lista de abrevaciones. Creo que es el Index. Ponemos lista de 
+abreviaciones pero no el index. Explicar como se usa.
 
 
 

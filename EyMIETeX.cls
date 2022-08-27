@@ -1,20 +1,20 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                            %%
-%% Class ``EyMIETeX''                                                %%
+%% Class ``EyMIETeX''       
 %%                                                                            %%
 %% Thesis template for the "Especialización y Maestría en Ingeniería Estructural" of Universidad Tecnológica Nacional (UTN), Argentina %%
 %%                                                                            %%
 %% Version: v1.0                                                              %%
 %% Authors: Mihdí Caballero                                                    %%
-%% License: MIT License (c) 2022 Mihdí Caballero                           %%
+%% License: MIT License (c) 2022 Mihdí Caballero 
 %% GitHub Repo: https://github.com/mihdicaballero/EyMIETeX
 
 %% The original source files were:
 %%
 %% PhDThesisPSnPDF.cls  by Krishna Kumar forked from https://github.com/kks32/phd-thesis-template %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% ************************** Class Identification ******************************
+% ************************ Class Identification ****************************
 \newcommand\fileversion{1.0}
 \newcommand\filedate{24/08/2022}
 \NeedsTeXFormat{LaTeX2e}
@@ -23,20 +23,20 @@
 \typeout{https://github.com/mihdicaballero/EyMIETeX/}
 
 
-% ******************************************************************************
-% **************************** Class Definition ********************************
-% ******************************************************************************
+% **********************************************************************
+% ************************* Class Definition ***************************
+% **********************************************************************
 
-% *********************** Define a Print/Online Version ************************
+% ****************** Define a Print/Online Version *********************
 \newif\if@print\@printfalse
 \DeclareOption{print}{\@printtrue}
 
-% ****************************** Define index **********************************
+% ************************ Define index ********************************
 \newif\ifPHD@index\PHD@indexfalse
 \DeclareOption{index}{\PHD@indextrue}
 
 
-% ******************************* Bibliography *********************************
+% ************************** Bibliography ******************************
 \newif\ifsetBib\setBibfalse                   % Custom Bibliography = true/false
 \newif\ifsetBiBLaTeX\setBiBLaTeXfalse         % BiBLaTeX = True / False
 
@@ -546,7 +546,8 @@ supported!}
   \ifsetCustomMargin
   % Margin to be define in preamble using geometry package ("_settings" folder)
   \else
-    \RequirePackage[paper=\PHD@papersize,top=1in,bottom=1in,left=1.6in,right=1in]{geometry}
+    \RequirePackage[paper=\PHD@papersize,top=1in,bottom=1in,left=1.6in,right=1in+]{geometry}
+    
   \fi
 
   \if@twoside
@@ -775,7 +776,7 @@ wish to left align your text}
 \newcommand{\supervisor}[1]{\renewcommand{\@supervisor}{#1}\PHD@supervisortrue}
 
 % Supervisor Title (Supervisor - Default, can be changed)
-\newcommand{\@supervisorrole}{Director: }
+\newcommand{\@supervisorrole}{Director:}
 \newcommand{\supervisorrole}[1]{\renewcommand{\@supervisorrole}{#1}}
 
 % Supervisor width to align
@@ -788,7 +789,7 @@ wish to left align your text}
 \newcommand{\advisor}[1]{\renewcommand{\@advisor}{#1}\PHD@advisortrue}
 
 % Advisor Title (Advisor - Default, can be changed)
-\newcommand{\@advisorrole}{Co-Director: }
+\newcommand{\@advisorrole}{Co-Director:}
 \newcommand{\advisorrole}[1]{\renewcommand{\@advisorrole}{#1}}
 
 % Advisor width to align
@@ -844,9 +845,9 @@ wish to left align your text}
 
 % ******************************************************************************
 % *************************** Front Matter Layout ******************************
-% ******************************************************************************
+% ***************************************************************************
 
-% ******************************** Title Page **********************************
+% ******************************* Title Page *********************************
 \renewcommand{\maketitle}{
 
 % To compute the free vertical space in Title page
@@ -1113,10 +1114,10 @@ wish to left align your text}
       % supervisor is not defined
     }{
       \begin{center}
-        \makebox[\widthof{supervisorrole} + \@supervisorlinewidth][c]{
-          \Large
-          \@supervisorrole \parbox[t]{\@supervisorlinewidth}{\@supervisor}
-        }
+      	{\Large \raggedright \@supervisorrole \\
+		  \makebox[\textwidth][c]{
+		   	\parbox[t]{\@supervisorlinewidth}{\centering \@supervisor}
+		  }}
       \end{center}
       \vspace{0.5em}
     } % supervisor is defined
@@ -1130,11 +1131,11 @@ wish to left align your text}
     \ifthenelse{\equal{\@advisor}{}}{
       % advisor is not defined
     }{
-      \begin{center}
-        \makebox[\widthof{advisorrole} + \@advisorlinewidth][c]{
-          \Large
-          \@advisorrole \parbox[t]{\@advisorlinewidth}{\@advisor}
-        }
+      \begin{center} 
+      	{\Large \raggedright \@advisorrole \\   	
+		   \makebox[\textwidth][c]{
+		   	 \parbox[t]{\@advisorlinewidth}{\centering \@advisor}
+		   }}
       \end{center}
       \vspace{0.5em}
     } % advisor is defined
