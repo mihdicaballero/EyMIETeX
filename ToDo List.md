@@ -11,7 +11,7 @@ en Readme.
 - [x] Interlineado debe ser de una línea y media, pero nadie nunca sabe cuanto es exactamente. 
 - [x] Pasar a idioma español con babel.
 - [x] Ubicar bien las referencias bibliográficas
-- [x] Dejar bibLaTeX como default
+- [ ] Dejar bibLaTeX como default
 - [ ] Ver cómó funcionan las keywords y donde salen
 - [ ] Dejar estilo APA como fijo
 - [ ] Poner link a las circulares que definen el estilo de la tesis.
@@ -44,6 +44,9 @@ dejar en la portada. Cuanto menos, mejor. Autor, director, co director (optativo
 - [ ] Ver qué hacemos con el formato de la portada. Jouglard comenta.
 - [ ] Conseguir logo de maestría y de UTN en pdf y en buena calidad. Definir si va logo solo 
 de UTN o logo de maestría
+- [ ] Nomenclatura de la tesis. Lista de símbolos utilizados, ver si lo usamos o no. Lo que trae la tesis no es muy feliz 
+porque requiere mayor configuración del usuario en teXstudio. Se puede usar los glossary como está hecho en UdelaRTeX
+o sino no tener eso en la tesis.
 
 
 

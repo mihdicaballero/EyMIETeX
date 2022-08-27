@@ -1,152 +1,78 @@
+% *****************************************************************************
+% **************************** Custom Packages ********************************
+% *************************** Graphics and figures *****************************
 
-% Add spaces between paragraphs
-%\setlength{\parskip}{0.5em}
-% Ragged bottom avoids extra whitespaces between paragraphs
+\usepackage{rotating} 	% Para girar imágenes
+\usepackage{wrapfig} 	% Para poner texto al lado de una figura
+
+% para usar [H] cuando incluya imágenes para forzar la posición
+\usepackage{float}
+\restylefloat{figure}
+\usepackage{subcaption}	% Para tener subfiguras dentro de una figura
+
+% ******************************** Tablas ************************************
+\usepackage{booktabs} 	% Para un estilo más profesional
+\usepackage{multirow} 	% Celdas multi fila
+\usepackage{multicol} 	% Celdas multi columna
+\usepackage{longtable} 	% Tablas en muchas páginas
+\usepackage{tabularx} 	% Más ajustes de tablas
+
+% **************************** Listas *********************************
+% Ragged bottom evita espacios en blanco adicionales entre párrafos
 \raggedbottom
-% To remove the excess top spacing for enumeration, list and description
+% Para eliminar el exceso de espacio superior para enumeración, lista y descripción
 \usepackage{enumitem}
 \setlist[enumerate,itemize,description]{topsep=0em}
 
-
-% *****************************************************************************
-% **************************** Custom Packages ********************************
-
-% ***************Captions and Hyperreferencing / URL **********************
-
-% Captions: This makes captions of figures use a boldfaced small font.
-%\RequirePackage[small,bf]{caption}
-
-\RequirePackage[labelsep=space,tableposition=top]{caption}
-\renewcommand{\figurename}{Fig.} %to support older versions of captions.sty
-
-
-% *************************** Graphics and figures *****************************
-
-%\usepackage{rotating}
-%\usepackage{wrapfig}
-
-% Uncomment the following two lines to force Latex to place the figure.
-% Use [H] when including graphics. Note 'H' instead of 'h'
-%\usepackage{float}
-%\restylefloat{figure}
-
-% Subcaption package is also available in the sty folder you can use that by
-% uncommenting the following line
-% This is for people stuck with older versions of texlive
-%\usepackage{sty/caption/subcaption}
-\usepackage{subcaption}
-
-% ******************************** Tables ************************************
-\usepackage{booktabs} % For professional looking tables
-\usepackage{multirow}
-
-%\usepackage{multicol}
-%\usepackage{longtable}
-%\usepackage{tabularx}
-
-
-% ******************************* SI Units *********************************
-\usepackage{siunitx} % use this package module for SI units
-
-
-% **************************** Line Spacing *********************************
-% \onehalfspacing
-
-% ******************** Formatting / Footnote *****************************
-
-% Don't break enumeration (etc.) across pages in an ugly manner (default 10000)
-%\clubpenalty=500
-%\widowpenalty=500
-%\usepackage[perpage]{footmisc} %Range of footnote options
-
-
 % *************************************************************************
-% *********************** Bibliography  and References ********************
+% *********************** Bibliografía y Referencias ********************
 
 \usepackage{hyperref} % Paquete para referenciar con \autoref{} que completa nombre de la referencia: Ecuación, Tabla, Figura
 
-% Indicar archivo de bibliografía
-\ifuseCustomBib
-	\usepackage[backend=biber, style=numeric-comp, citestyle=numeric, sorting=nty, natbib=true]{biblatex}
-	\addbibresource{Bibliografia/bibliografia.bib} % Ubicación de references.bib solo para biblatex, no omita la extensión .bib del nombre de archivo.
-\fi
+% Carga de estilo APA para la tesis - No modificar
+\usepackage[backend=biber, style=apa,sortcites,natbib=true]{biblatex}
+\input{_settings/apa}
+\addbibresource{Bibliografia/bibliografia.bib} % Ubicación de bibliografia.bib a cargar, no omita la extensión .bib del nombre de archivo.
 \renewcommand{\bibname}{Bibliografía}
 
-
-% *************************************************************************
-% ******************** User Defined Commands ******************************
-% *************************************************************************
-
-% ******* To change the name of Table of Contents / LOF and LOT ***********
-% VER SI CAMBIAMOS ESTO O DEJAMOS POR DEFECTO
-%\renewcommand{\contentsname}{My Table of Contents}
-%\renewcommand{\listfigurename}{My List of Figures}
-%\renewcommand{\listtablename}{My List of Tables}
-
-
-% ********************** TOC depth and numbering depth *************************
-
+% ********* Profundidad de índice y profundidad de numeración *************
 \setcounter{secnumdepth}{2}
 \setcounter{tocdepth}{2}
 
+% ****************** Configurar modo Borrador *******************************
 
-% ******************************* Nomenclature *********************************
-
-% To change the name of the Nomenclature section, uncomment the following line
-
-%\renewcommand{\nomname}{Symbols}
-
-
-% ********************************* Appendix ***********************************
-
-% The default value of both \appendixtocname and \appendixpagename is `Appendices'. These names can all be changed via:
-
-%\renewcommand{\appendixtocname}{List of appendices}
-%\renewcommand{\appendixname}{Appndx}
-
-% *********************** Configure Draft Mode **********************************
-
-% Uncomment to disable figures in `draft'
-%\setkeys{Gin}{draft=true}  % set draft to false to enable figures in `draft'
-
-% These options are active only during the draft mode
-% Default text is "Draft"
-%\SetDraftText{DRAFT}
-
-% Default Watermark location is top. Location (top/bottom)
-%\SetDraftWMPosition{bottom}
-
-% Draft Version - default is v1.0
-%\SetDraftVersion{v1.1}
-
-% Draft Text grayscale value (should be between 0-black and 1-white)
-% Default value is 0.75
-%\SetDraftGrayScale{0.8}
+% Escribe draft=false para habilitar las figuras en 'borrador'
+\setkeys{Gin}{draft=false}  
+% Ubicación de la marca de agua. Ubicación(top/bottom)
+\SetDraftWMPosition{bottom}
+% Versión del borrado - por defecto es v1.0
+\SetDraftVersion{v1.0}
 
 
 % ******************************** Todo Notes **********************************
-%% Uncomment the following lines to have todonotes.
+%% Las notas se ponen con el comando \mynote{Texto.} 
+%% Solo se imprimen en el modo "draft".
 
-%\ifsetDraft
-%	\usepackage[colorinlistoftodos]{todonotes}
-%	\newcommand{\mynote}[1]{\todo[author=kks32,size=\small,inline,color=green!40]{#1}}
-%\else
-%	\newcommand{\mynote}[1]{}
-%	\newcommand{\listoftodos}{}
-%\fi
+\ifsetDraft
+	\usepackage[colorinlistoftodos]{todonotes}
+	\newcommand{\mynote}[1]{\todo[author=Nombre,size=\small,inline,color=green!40]{#1}}
+\else
+	\newcommand{\mynote}[1]{}
+	\newcommand{\listoftodos}{}
+\fi
 
-% Example todo: \mynote{Hey! I have a note}
 
-% ******************************** Highlighting Changes **********************************
+
+% *************************** Highlighting Changes *****************************
 %% Uncomment the following lines to be able to highlight text/modifications.
-%\ifsetDraft
-%  \usepackage{color, soul}
-%  \newcommand{\hlc}[2][yellow]{{\sethlcolor{#1} \hl{#2}}}
-%  \newcommand{\hlfix}[2]{\texthl{#1}\todo{#2}}
-%\else
-%  \newcommand{\hlc}[2]{}
-%  \newcommand{\hlfix}[2]{}
-%\fi
+\ifsetDraft
+  \usepackage{color, soul}
+  \newcommand{\hlc}[2][yellow]{{\sethlcolor{#1} \hl{#2}}}
+  \newcommand{\hlfix}[2]{\texthl{#1}\todo{#2}}
+\else
+  \newcommand{\hlc}[2]{}
+  \newcommand{\hlfix}[2]{}
+\fi
 
 % Example highlight 1: \hlc{Text to be highlighted}
 % Example highlight 2: \hlc[green]{Text to be highlighted in green colour}

@@ -7,7 +7,7 @@
 %% Version: v1.0                                                              %%
 %% Authors: Mihdí Caballero                                                    %%
 %% License: MIT License (c) 2022 Mihdí Caballero                           %%
-%% GitHub Repo: https://github.com/kks32/phd-thesis-template/    
+%% GitHub Repo: https://github.com/mihdicaballero/EyMIETeX
 
 %% The original source files were:
 %%
@@ -259,6 +259,9 @@ supported!}
 \RequirePackage{xcolor}
 \definecolor{DarkBlue}{RGB}{0,0,139}
 
+% Captions: Esto hace que las leyendas de las figuras usen una fuente en negrita.
+\RequirePackage[bf]{caption}
+\RequirePackage[labelsep=space,tableposition=top]{caption}
 
 % ******************************* Time Stamp ***********************************
 % Compute the timestamp based on an idea of
@@ -354,7 +357,7 @@ supported!}
 % The settings can be tweaked in the preamble
 
 % Draft text
-\newcommand\drafttext{Draft}
+\newcommand\drafttext{Borrador}
 \renewcommand\SetDraftText[1]{%
   \renewcommand\drafttext{#1}
 }
@@ -493,10 +496,6 @@ supported!}
 \RequirePackage{textcomp}
 \RequirePackage{mathptmx} 
 
-% default: pdfLaTeX
-\RequirePackage[utf8]{inputenc}
-\RequirePackage[T1]{fontenc}
-
 % If building with PDFLaTeX, use microtype spacing adjustments
 \RequirePackage[final]{microtype}
 
@@ -522,6 +521,7 @@ supported!}
 
 % Moved below other usepackage definitions to fix PDFLaTeX footnote warning
 % Based on the suggestion by John Plaice
+\RequirePackage[perpage]{footmisc} % Range of footnote options
 
 \RequirePackage[unicode=true]{hyperref}
 
@@ -818,7 +818,7 @@ wish to left align your text}
 \newcommand{\@abstracttitle}{Resumen}
 
 % Names for the nomenclature groups
-\newcommand{\@nomenclatureromans}{Símbolos Romanoes}
+\newcommand{\@nomenclatureromans}{Símbolos Romanos}
 \newcommand{\@nomenclaturegreeks}{Símbolos Griegos}
 \newcommand{\@nomenclatureacronyms}{Acrónimos/Abreviaciones}
 \newcommand{\@nomenclaturesuperscripts}{Superíndices}

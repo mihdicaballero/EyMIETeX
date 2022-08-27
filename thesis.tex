@@ -1,12 +1,10 @@
 % ****** Template para la Especialización y Maestría en Ingeniería Estructural UTN ******
 % Consulte el archivo README.md para obtener información sobre cómo utilizar la plantilla.
-\documentclass[12pt,times,oneside,index,custombib]{EyMIETeX}
-% ********************** Choosing the Bibliography style ***********************
-% `custombib': Define your own bibliography style in the `preamble.tex' file.
-%              `\RequirePackage[square, sort, numbers, authoryear]{natbib}'.
-%              This can be also used to load biblatex instead of natbib
-%              (See Preamble)
-% DEJA APA COMO DEFAULT Y USAR BIBLATEX
+\documentclass[12pt,times,index,custombib,oneside,draft]{EyMIETeX}
+
+% Opciones de la clase: 
+%	"draft" para activar modo borrador
+% 	"oneside" o "twoside" para modo simple faz o doble faz
 
 % **************************** Choosing the Page Style *************************
 %
@@ -25,6 +23,7 @@
 
 % ******************************* Preámbulo ********************************
 \input{_settings/preamble}	% Preámbulo con paquetes y comandos definidos por el usuario
+
 \input{thesis-info}			% Información de la tesis, autor y .bib.
 
 % ******************************** Front Matter ********************************
@@ -43,9 +42,8 @@
 	\listoftables
 	
 	% \printnomenclature[space] space can be set as 2em between symbol and description
-	%\printnomenclature[3em]
-	
-	\printnomenclature % ver que es esto
+%	\printnomenclature[3em]
+%	\printnomenclature % ver que es esto
 	
 	%  Main Matter - NO comentar
 	\mainmatter
