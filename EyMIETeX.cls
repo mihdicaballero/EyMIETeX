@@ -226,6 +226,7 @@ supported!}
 % *********************** Table of Contents & Appendices ***********************
 % add Bibliography, List of figures and tables to contents
 \RequirePackage[nottoc]{tocbibind}
+\RequirePackage{csquotes}
 % Add appendices
 \RequirePackage[title,titletoc]{appendix}
 

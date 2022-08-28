@@ -19,7 +19,8 @@ DEL "%FILENAME%.ps"
 DEL "%FILENAME%.dvi"
 
 pdflatex -interaction=nonstopmode "%FILENAME%.tex"
-bibtex "%FILENAME%.aux"
+biber "%FILENAME%"
+pdflatex -interaction=nonstopmode "%FILENAME%.tex"
 makeindex "%FILENAME%.aux"
 makeindex "%FILENAME%.idx"
 makeindex "%FILENAME%.nlo" -s nomencl.ist -o "%FILENAME%".nls
