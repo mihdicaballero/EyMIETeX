@@ -50,6 +50,8 @@ Admite las siguientes opciones personalizadas en la clase de documento en `tesis
 *   `draft`: El modo de borrador predeterminado admite algunas funciones especiales, como números de línea, imágenes y marca de agua con
      marca de tiempo y texto personalizado. La posición del texto se puede modificar en `_settings/preamble.tex`.
 
+*	`oneside` o `twoside`: Alterna la impresión de las hojas en simple fazo en doble faz, respectivamente.     
+
 ### Página de título
 
 La página principal (página de título) cambia de tamaño para adaptarse a la longitud de su título y cantidad de directores y co-directores. Puede modificar las opciones en `tesis-info.tex`.
@@ -116,7 +118,7 @@ Para incluir notas de tareas personalizadas en su documento pdf, use `\mynote{Te
 
 --------------------------------------------------------------------------------
 
-## Known issue(s) / Bugs / Feature requests
+## Bugs o sugerencias de mejora
 
 *   Open issues se pueden ver en [https://github.com/mihdicaballero/EyMIETeX/issues](https://github.com/mihdicaballero/EyMIETeX/issues). Si desea agregar una nueva característica a la plantilla, cree un problema y etiquételo como una mejora.
 *   Por favor [hacer un fork en github](https://github.com/mihdicaballero/EyMIETeX/fork) y cree una "pull request", si desea contribuir al repositorio.
