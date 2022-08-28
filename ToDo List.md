@@ -13,13 +13,14 @@ en Readme.
 - [x] Ubicar bien las referencias bibliográficas
 - [x] Dejar bibLaTeX como default
 - [x] Ajustar posición de directore y co directores.
-- [ ] Ver cómó funcionan las keywords y donde salen
+- [x] Ver cómó funcionan las keywords y donde salen. No son palabras clave, no vienen con la tesis.
 - [x] Dejar estilo APA como fijo
-- [ ] Definir contenido de relleno del template
-- [ ] Terminar de traducir el README.
-- [ ] Poner link a las circulares que definen el estilo de la tesis.
-- [ ] Hacer pruebas y ver que funcione bien todo.
-- [ ] Hacer un release con el nuevo template y ajustar link.
+- [x] Ver como funciona el INDEX. Funciona bien, corriendo el script "compilar-tesis-windows.bat" Lo mismo con la lista de nomenclatura.
+- [x] Terminar de traducir el README.
+- [x] Poner link a las circulares que definen el estilo de la tesis.
+- [x] Hacer pruebas y ver que funcione bien todo.
+- [x] Hacer un release con el nuevo template y ajustar link.
+- [ ] Hacer cambios con información nueva de Claudio y sus comentarios.
 
 # A definir con Claudio
 - [x] En digital está bueno ver con color las hiperreferencias pero para imprimir hay
@@ -44,8 +45,8 @@ dejar en la portada. Cuanto menos, mejor. Autor, director, co director (optativo
 - [ ] Ver qué hacemos con el formato de la portada. Jouglard comenta.
 - [ ] Conseguir logo de maestría y de UTN en pdf y en buena calidad. Definir si va logo solo 
 de UTN o logo de maestría
-- [ ] Ver si precisamos o no lista de abrevaciones. Creo que es el Index. Ponemos lista de 
-abreviaciones pero no el index. Explicar como se usa.
-
+- [ ] Ver si precisamos o no lista de símbolos y abrevaciones. Ver PDF.
+- [ ] Ver si precisamos índice alfabético o no. Ver PDF.
+- [ ] Definir contenido y secciones del template o si se deja todo en blanco. Dejé alguna instrucción básica y algún ejemplo que traía.
 
 

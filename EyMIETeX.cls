@@ -978,6 +978,9 @@ wish to left align your text}
 }% matches Greek Symbols        > G
 }% matches Roman Symbols        > A
 
+% Change nomenclature name
+\renewcommand\nomname{Nomenclatura}
+
 % To add nomenclature in the header
 \renewcommand{\nompreamble}{\markboth{\nomname}{\nomname}}
 
@@ -986,7 +989,7 @@ wish to left align your text}
 \ifthenelse{\equal {#1}{}}
 {\printnomenclature}
 {\printnomenclature[#1]}
-%\addcontentsline{toc}{chapter}{\nomname}
+%\addcontentsline{toc}{chapter}{Nomenclatura}
 }
 
 

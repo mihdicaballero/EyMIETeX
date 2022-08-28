@@ -10,7 +10,14 @@
 \input{_settings/preamble}	% Preámbulo con paquetes y comandos definidos por el usuario
 \input{tesis-info}			% Información de la tesis, autor y universidad.
 
-% ******************************** Front Matter ********************************
+% ************************** Modo Capítulo *******************************
+% El modo de capítulo permite al usuario imprimir solo capítulos particulares con referencias. Título, Contenido, Frontmatter están deshabilitados por defecto
+% Para usar, elija la opción `chapter' en la clase de documento
+
+\ifdefineChapter
+	\includeonly{Capitulos/capitulo1}
+\fi
+
 \begin{document}
 	% Front matter - NO comentar
 	\frontmatter
@@ -25,27 +32,25 @@
 	\listoffigures
 	\listoftables
 	
-	% \printnomenclature[space] space can be set as 2em between symbol and description
-%	\printnomenclature[3em]
-%	\printnomenclature % ver que es esto
+	% Lista de símbolos y abreviaciones
+	\printnomenclature % 
 	
 	%  Main Matter - NO comentar
 	\mainmatter
 	% Capitulos
-	\include{Capitulos/chapter1}
-	\include{Capitulos/chapter2}
-	\include{Capitulos/chapter3}
+	\include{Capitulos/capitulo1}
+	\include{Capitulos/capitulo2}
+	\include{Capitulos/capitulo3}
 		
 	% Back Matter 
 	% Backmatter should be commented out, if you are using appendices after References
-%	\backmatter
+	\backmatter
 	
-	% Bibliografía
-	
-	% If you would like to use BibLaTeX for your references, pass `custombib' as an option in the document class. The location of 'reference.bib' should be specified in the preamble.tex file in the custombib section.
-	% Comment out the lines related to natbib above and uncomment the following line.
-	
+	% Bibliografía	
 	\printbibliography[heading=bibintoc]	
+	% ***************************** Index ******************************
+	% VER QUE ES ESTO
+	\printthesisindex % If index is present
 	% Apéndices
 	\begin{appendices} 
 		\include{Apendices/Apendice_A}
@@ -53,7 +58,5 @@
 	\end{appendices}
 	
 	
-	% ***************************** Index ******************************
-	% VER QUE ES ESTO
-	\printthesisindex % If index is present
+
 \end{document}
