@@ -50,7 +50,9 @@ Admite las siguientes opciones personalizadas en la clase de documento en `tesis
 *   `draft`: El modo de borrador predeterminado admite algunas funciones especiales, como números de línea, imágenes y marca de agua con
      marca de tiempo y texto personalizado. La posición del texto se puede modificar en `_settings/preamble.tex`.
 
-*	`oneside` o `twoside`: Alterna la impresión de las hojas en simple fazo en doble faz, respectivamente.     
+*	`oneside` o `twoside`: Alterna la impresión de las hojas en simple fazo en doble faz, respectivamente.
+
+*	`print`: Para imprimir en papel, sin hiperreferencias y todas las referencias en negro.     
 
 ### Página de título
 

@@ -547,7 +547,7 @@ supported!}
   \ifsetCustomMargin
   % Margin to be define in preamble using geometry package ("_settings" folder)
   \else
-    \RequirePackage[paper=\PHD@papersize,top=1in,bottom=1in,left=1.6in,right=1in+]{geometry}
+    \RequirePackage[paper=\PHD@papersize,top=1in,bottom=1in,left=1.6in,right=1in]{geometry}
     
   \fi
 

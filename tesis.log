@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.25)  6 SEP 2022 23:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.25)  6 SEP 2022 23:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -602,15 +602,16 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip58
 )
-Package hyperref Info: Option `final' set `true' on input line 577.
-Package hyperref Info: Option `plainpages' set `false' on input line 577.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 577.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 577.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 577.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 577.
+Package hyperref Info: Option `final' set `true' on input line 546.
+Package hyperref Info: Option `plainpages' set `false' on input line 546.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 546.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 546.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 546.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 546.
 
-Package hyperref Info: Option `breaklinks' set `true' on input line 577.
-Package hyperref Info: Option `colorlinks' set `true' on input line 577.
+Package hyperref Info: Option `breaklinks' set `true' on input line 546.
+Package hyperref Info: Option `linktocpage' set `true' on input line 546.
+Package hyperref Info: Option `colorlinks' set `true' on input line 546.
 
 (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -1553,10 +1554,10 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28959 strings out of 477843
- 512571 string characters out of 2833414
- 1409186 words of memory out of 3000000
- 47005 multiletter control sequences out of 15000+600000
+ 28962 strings out of 477843
+ 512606 string characters out of 2833414
+ 1409189 words of memory out of 3000000
+ 47007 multiletter control sequences out of 15000+600000
  549680 words of font info for 273 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,11n,120p,1334b,2897s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1568,7 +1569,7 @@ MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts
 b><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/M
 iKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on tesis.pdf (18 pages, 212344 bytes).
+Output written on tesis.pdf (18 pages, 212112 bytes).
 PDF statistics:
  303 PDF objects out of 1000 (max. 8388607)
  69 named destinations out of 1000 (max. 500000)
