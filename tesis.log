@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.25)  28 AUG 2022 18:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.25)  6 SEP 2022 23:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -691,16 +691,7 @@ Package tocbasic Info: setting babel extension for `nls' on input line 188.
 \@nomenclaturefile=\write3
 \openout3 = `tesis.nlo'.
 
-Package nomencl Info: Writing nomenclature file tesis.nlo on input line 966.
-
-(C:\Program Files\MiKTeX\tex/latex/base\makeidx.sty
-Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
-)
-\@indexfile=\write4
-\openout4 = `tesis.idx'.
-
-
-Writing index file tesis.idx
+Package nomencl Info: Writing nomenclature file tesis.nlo on input line 967.
 ) (_settings/preamble.tex
 (C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
@@ -940,7 +931,7 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibparsep=\skip89
 \bibhang=\skip90
 \blx@bcfin=\read3
-\blx@bcfout=\write5
+\blx@bcfout=\write4
 \blx@langwohyphens=\language80
 \c@mincomprange=\count408
 \c@maxcomprange=\count409
@@ -1253,8 +1244,8 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 Package hyperref Info: Link coloring ON on input line 22.
 
 (tesis.out) (tesis.out)
-\@outlinefile=\write6
-\openout6 = `tesis.out'.
+\@outlinefile=\write5
+\openout5 = `tesis.out'.
 
 
 *geometry* driver: auto-detecting
@@ -1310,7 +1301,7 @@ File: spanish.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `tesis.bcf'.
+\openout4 = `tesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tesis.bbl' found.
@@ -1366,7 +1357,7 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 \PHD@crest=\box116
-<Figuras//logo_utn.pdf, id=91, 59.22125pt x 69.25874pt>
+<Figuras//logo_utn.pdf, id=83, 59.22125pt x 69.25874pt>
 File: Figuras//logo_utn.pdf Graphic file (type pdf)
 <use Figuras//logo_utn.pdf>
 Package pdftex.def Info: Figuras//logo_utn.pdf  used on input line 26.
@@ -1413,8 +1404,8 @@ LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 )
-\tf@toc=\write7
-\openout7 = `tesis.toc'.
+\tf@toc=\write6
+\openout6 = `tesis.toc'.
 
  [5
 
@@ -1426,8 +1417,8 @@ LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-\tf@lof=\write8
-\openout8 = `tesis.lof'.
+\tf@lof=\write7
+\openout7 = `tesis.lof'.
 
  [6
 
@@ -1436,18 +1427,14 @@ LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-\tf@lot=\write9
-\openout9 = `tesis.lot'.
+\tf@lot=\write8
+\openout8 = `tesis.lot'.
 
 
-(tesis.nls [7
+No file tesis.nls.
+[7
 
-] [8
-
-])
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
- [9]
+]
 \openout2 = `Capitulos/capitulo1.aux'.
 
  (Capitulos/capitulo1.tex
@@ -1495,7 +1482,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
-<Figuras/capitulo_2/x_vs_y.png, id=202, 578.16pt x 413.3844pt>
+<Figuras/capitulo_2/x_vs_y.png, id=182, 578.16pt x 413.3844pt>
 File: Figuras/capitulo_2/x_vs_y.png Graphic file (type png)
 <use Figuras/capitulo_2/x_vs_y.png>
 Package pdftex.def Info: Figuras/capitulo_2/x_vs_y.png  used on input line 67.
@@ -1509,8 +1496,8 @@ File: Figuras/capitulo_2/x_vs_y.png Graphic file (type png)
 Package pdftex.def Info: Figuras/capitulo_2/x_vs_y.png  used on input line 77.
 (pdftex.def)             Requested size: 122.88287pt x 87.86037pt.
 )
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
  [5
 
  <./Figuras/capitulo_2/x_vs_y.png (PNG copy)>]
@@ -1524,33 +1511,30 @@ Cap\'{\i }tulo 3.
 
 
 ])
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
  [7]
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
- [8] [9
-
-
-
-
-] (tesis.ind [10
-
-
-
-])
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
+ [8]
 \openout2 = `Apendices/Apendice_A.aux'.
 
- (Apendices/Apendice_A.tex) [11
+ (Apendices/Apendice_A.tex) [9
+
+
 
 
 
 ]
 \openout2 = `Apendices/Apendice_B.aux'.
 
+ (Apendices/Apendice_B.tex) [10
 
-(Apendices/Apendice_B.tex) [12
 
+
+
+]
+[11
 
 
 
@@ -1558,36 +1542,35 @@ LaTeX Info: Redefining \% on input line 44.
 LaTeX Info: Redefining \sptext on input line 21.
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
- (Portada/dedicatoria.aux)
-(Portada/agradecimientos.aux) (Portada/resumen.aux) (Capitulos/capitulo1.aux)
-(Capitulos/capitulo2.aux) (Capitulos/capitulo3.aux) (Apendices/Apendice_A.aux)
-(Apendices/Apendice_B.aux))
+ (Portada/dedicatoria.aux) (Portada/agradecimientos.aux)
+(Portada/resumen.aux) (Capitulos/capitulo1.aux) (Capitulos/capitulo2.aux)
+(Capitulos/capitulo3.aux) (Apendices/Apendice_A.aux) (Apendices/Apendice_B.aux)
+)
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 54CAF91104307A44E770072AC6786972;4183.
+(rerunfilecheck)             Checksum: 3A13F967E7E6A829B5EF6B93C4C78D0F;3941.
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29014 strings out of 477843
- 513645 string characters out of 2833414
- 1409258 words of memory out of 3000000
- 47041 multiletter control sequences out of 15000+600000
- 550890 words of font info for 276 fonts, out of 8000000 for 9000
+ 28959 strings out of 477843
+ 512571 string characters out of 2833414
+ 1409186 words of memory out of 3000000
+ 47005 multiletter control sequences out of 15000+600000
+ 549680 words of font info for 273 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,12n,120p,1334b,2897s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 125i,11n,120p,1334b,2897s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Mihdi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
 1200.pk>{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/
-type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri
-8a.pfb>
-Output written on tesis.pdf (21 pages, 227262 bytes).
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pf
+b><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/M
+iKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on tesis.pdf (18 pages, 212344 bytes).
 PDF statistics:
- 334 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 93883 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 303 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 91819 words of extra memory for PDF output out of 106986 (max. 10000000)
 

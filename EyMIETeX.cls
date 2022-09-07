@@ -899,12 +899,13 @@ wish to left align your text}
 \vspace*{0.5em}
 \fi
 
-% Department and University
-{\usebox{\PHD@dept}}
-\vspace{.2\PHD@titlepagespacing}
 
 % Submission Text
 {\usebox{\PHD@submission}}
+
+% Department and University
+{\usebox{\PHD@dept}}
+\vspace{.2\PHD@titlepagespacing}
 
 % College and degree date
 \vfill
@@ -980,7 +981,7 @@ wish to left align your text}
 }% matches Roman Symbols        > A
 
 % Change nomenclature name
-\renewcommand\nomname{Nomenclatura}
+\renewcommand\nomname{Lista de abreviaciones}
 
 % To add nomenclature in the header
 \renewcommand{\nompreamble}{\markboth{\nomname}{\nomname}}
@@ -1118,9 +1119,8 @@ wish to left align your text}
       % supervisor is not defined
     }{
       \begin{center}
-      	{\Large \raggedright \@supervisorrole \\
-		  \makebox[\textwidth][c]{
-		   	\parbox[t]{\@supervisorlinewidth}{\centering \@supervisor}
+      	{ \large \makebox[\textwidth][c]{
+		   	\parbox[t]{\@supervisorlinewidth}{\centering \@supervisorrole\, \@supervisor}
 		  }}
       \end{center}
       \vspace{0.5em}
@@ -1136,9 +1136,8 @@ wish to left align your text}
       % advisor is not defined
     }{
       \begin{center} 
-      	{\Large \raggedright \@advisorrole \\   	
-		   \makebox[\textwidth][c]{
-		   	 \parbox[t]{\@advisorlinewidth}{\centering \@advisor}
+      	{\large \makebox[\textwidth][c]{
+		   	 \parbox[t]{\@advisorlinewidth}{\centering \@advisorrole\, \@advisor}
 		   }}
       \end{center}
       \vspace{0.5em}
@@ -1162,8 +1161,10 @@ wish to left align your text}
     \begin{center}
       \large \submissiontext \par
       \large \textit {\@degreetitle} \par
+      \vspace*{1em}
     \end{center}
   \end{minipage}
+	
 \end{lrbox}
 
 % College and Date Box

@@ -108,6 +108,7 @@ La página principal (página de título) cambia de tamaño para adaptarse a la 
 ## To-do Notes
 
 Para incluir notas de tareas personalizadas en su documento pdf, use `\mynote{Tengo una nota}` en cualquier parte de sus capítulos. Para activar esta función, debe descomentar las siguientes líneas en `preamble.tex`. Las notas de tareas estarán disponibles solo en el "borrador" y no en la tesis final.
+
 	\ifsetDraft
 		\usepackage[colorinlistoftodos]{todonotes}\setlength{\marginparwidth}{3cm}\reversemarginpar
 		\newcommand{\mynote}[1]{\todo[author=Nombre,size=\small,inline,color=green!40]{#1}}

@@ -37,9 +37,9 @@
 \setcounter{secnumdepth}{2}
 \setcounter{tocdepth}{2}
 
-% ****************** Configurar modo Borrador *******************************
-%% Comentar estas líneas si no se está en modo borrador
-%% Escribe draft=false para habilitar las figuras en 'borrador'
+% ************ Configurar modo Borrador **************************
+% Comentar estas líneas si no se está en modo borrador
+% Escribe draft=false para habilitar las figuras en 'borrador'
 %\setkeys{Gin}{draft=true}  
 %% Para cambiar el texto de la marca de agua:
 %\SetDraftText{Borrador}
@@ -48,29 +48,31 @@
 %% Versión del borrado - por defecto es v1.0
 %\SetDraftVersion{v1.0}
 
-% ****************************** Todo Notes ********************************
+% *********************** Todo Notes **************************
+%% Esto es algo opcional. Descomentar código de abajo para que funcione.
 %% Las notas se ponen con el comando \mynote{Texto.} 
 %% Solo se imprimen en el modo "draft".
 
-\ifsetDraft
-	\usepackage[colorinlistoftodos]{todonotes}\setlength{\marginparwidth}{3cm}\reversemarginpar
-	\newcommand{\mynote}[1]{\todo[author=Nombre,size=\small,inline,color=green!40]{#1}}
-\else
-	\newcommand{\mynote}[1]{}
-	\newcommand{\listoftodos}{}
-\fi
+%\ifsetDraft
+%	\usepackage[colorinlistoftodos]{todonotes}\setlength{\marginparwidth}{3cm}\reversemarginpar
+%	\newcommand{\mynote}[1]{\todo[author=Nombre,size=\small,inline,color=green!40]{#1}}
+%\else
+%	\newcommand{\mynote}[1]{}
+%	\newcommand{\listoftodos}{}
+%\fi
 
 % ******************** Resaltador de cambios ************************
+%% Esto es algo opcional. Descomentar código de abajo para que funcione.
 %% Los cambios solo se ven en modo "draft"
 % Ejemplo de resaltado 1: \hlc{Texto a resaltar}
 % Ejemplo de resaltado 2: \hlc[green]{Texto a resaltar en color verde}
 % Ejemplo de restalado 3: \hlfix{Texto original}{Texto modificado}
 
-\ifsetDraft
-  \usepackage{color, soul}
-  \newcommand{\hlc}[2][yellow]{{\sethlcolor{#1} \hl{#2}}}
-  \newcommand{\hlfix}[2]{\texthl{#1}\todo{#2}}
-\else
-  \newcommand{\hlc}[2]{}
-  \newcommand{\hlfix}[2]{}
-\fi
+%\ifsetDraft
+%  \usepackage{color, soul}
+%  \newcommand{\hlc}[2][yellow]{{\sethlcolor{#1} \hl{#2}}}
+%  \newcommand{\hlfix}[2]{\texthl{#1}\todo{#2}}
+%\else
+%  \newcommand{\hlc}[2]{}
+%  \newcommand{\hlfix}[2]{}
+%\fi

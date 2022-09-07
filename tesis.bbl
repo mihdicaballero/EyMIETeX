@@ -1,0 +1,181 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{Ancey1996}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1a3fc43d7ad14289ecf71275e784ee24}{%
+           family={Ancey},
+           familyi={A\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1331bf9ef7ddd85f3a542490d596bc21}{%
+           family={Coussot},
+           familyi={C\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=681967a901e7cee82f0bf24b99c58478}{%
+           family={Evesque},
+           familyi={E\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{886cc764596656cd2d764bdf09aa43a3}
+      \strng{fullhash}{ae1a43a63441c439153f7a1e52ae94b9}
+      \strng{bibnamehash}{ae1a43a63441c439153f7a1e52ae94b9}
+      \strng{authorbibnamehash}{ae1a43a63441c439153f7a1e52ae94b9}
+      \strng{authornamehash}{886cc764596656cd2d764bdf09aa43a3}
+      \strng{authorfullhash}{ae1a43a63441c439153f7a1e52ae94b9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mechanics of Cohesive-frictional Materials}
+      \field{number}{4}
+      \field{title}{Examination of the possibility of a fluid-mechanics treatment of dense granular flows}
+      \field{volume}{1}
+      \field{year}{1996}
+      \field{pages}{385\bibrangedash 403}
+      \range{pages}{19}
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1002/(SICI)1099-1484(199610)1:4<385::AID-CFM20>3.0.CO;2-0
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1002/(SICI)1099-1484(199610)1:4%3C385::AID-CFM20%3E3.0.CO;2-0
+      \endverb
+    \endentry
+    \entry{Rea85}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=419419917c798f89963f25bb64872a3a}{%
+           family={Read},
+           familyi={R\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{419419917c798f89963f25bb64872a3a}
+      \strng{fullhash}{419419917c798f89963f25bb64872a3a}
+      \strng{bibnamehash}{419419917c798f89963f25bb64872a3a}
+      \strng{authorbibnamehash}{419419917c798f89963f25bb64872a3a}
+      \strng{authornamehash}{419419917c798f89963f25bb64872a3a}
+      \strng{authorfullhash}{419419917c798f89963f25bb64872a3a}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bull. London Math. Soc.}
+      \field{title}{A solution to the invariant subspace problem on the space $l_1$}
+      \field{volume}{17}
+      \field{year}{1985}
+      \field{pages}{305\bibrangedash 317}
+      \range{pages}{13}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{Ancey1996}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1a3fc43d7ad14289ecf71275e784ee24}{%
+           family={Ancey},
+           familyi={A\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1331bf9ef7ddd85f3a542490d596bc21}{%
+           family={Coussot},
+           familyi={C\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=681967a901e7cee82f0bf24b99c58478}{%
+           family={Evesque},
+           familyi={E\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{886cc764596656cd2d764bdf09aa43a3}
+      \strng{fullhash}{ae1a43a63441c439153f7a1e52ae94b9}
+      \strng{bibnamehash}{ae1a43a63441c439153f7a1e52ae94b9}
+      \strng{authorbibnamehash}{ae1a43a63441c439153f7a1e52ae94b9}
+      \strng{authornamehash}{886cc764596656cd2d764bdf09aa43a3}
+      \strng{authorfullhash}{ae1a43a63441c439153f7a1e52ae94b9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mechanics of Cohesive-frictional Materials}
+      \field{number}{4}
+      \field{title}{Examination of the possibility of a fluid-mechanics treatment of dense granular flows}
+      \field{volume}{1}
+      \field{year}{1996}
+      \field{pages}{385\bibrangedash 403}
+      \range{pages}{19}
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1002/(SICI)1099-1484(199610)1:4<385::AID-CFM20>3.0.CO;2-0
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1002/(SICI)1099-1484(199610)1:4%3C385::AID-CFM20%3E3.0.CO;2-0
+      \endverb
+    \endentry
+    \entry{Rea85}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=419419917c798f89963f25bb64872a3a}{%
+           family={Read},
+           familyi={R\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{419419917c798f89963f25bb64872a3a}
+      \strng{fullhash}{419419917c798f89963f25bb64872a3a}
+      \strng{bibnamehash}{419419917c798f89963f25bb64872a3a}
+      \strng{authorbibnamehash}{419419917c798f89963f25bb64872a3a}
+      \strng{authornamehash}{419419917c798f89963f25bb64872a3a}
+      \strng{authorfullhash}{419419917c798f89963f25bb64872a3a}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bull. London Math. Soc.}
+      \field{title}{A solution to the invariant subspace problem on the space $l_1$}
+      \field{volume}{17}
+      \field{year}{1985}
+      \field{pages}{305\bibrangedash 317}
+      \range{pages}{13}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

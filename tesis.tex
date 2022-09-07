@@ -1,11 +1,12 @@
 % ****** Template para la Especialización y Maestría en Ingeniería Estructural UTN ******
 % Consulte el archivo README.md para obtener información sobre cómo utilizar la plantilla.
-\documentclass[12pt,times,index,custombib,oneside]{EyMIETeX}
+\documentclass[12pt,times,custombib,oneside]{EyMIETeX}
 
 % Opciones de la clase: 
 %	"draft" para activar modo borrador
 % 	"oneside" o "twoside" para modo simple faz o doble faz
 % 	"chapter" habilita solo el capítulo especificado y sus referencias.
+% 	"index" para generar el índice alfabético
 
 % ******************************* Preámbulo ********************************
 \input{_settings/preamble}	% Preámbulo con paquetes y comandos definidos por el usuario
@@ -14,7 +15,6 @@
 % ************************** Modo Capítulo *******************************
 % El modo de capítulo permite al usuario imprimir solo capítulos particulares con referencias. Título, Contenido, Frontmatter están deshabilitados por defecto
 % Para usar, elija la opción `chapter' en la clase de documento
-
 \ifdefineChapter
 	\includeonly{Capitulos/capitulo1}
 \fi
@@ -33,8 +33,7 @@
 	\listoffigures
 	\listoftables
 	
-	% Lista de símbolos y abreviaciones
-	\printnomenclature % 
+	\printnomenclature % Lista de símbolos y abreviaciones, opcional
 	
 	%  Main Matter - NO comentar
 	\mainmatter
@@ -43,21 +42,17 @@
 	\include{Capitulos/capitulo2}
 	\include{Capitulos/capitulo3}
 		
-	% Back Matter 
-	% Backmatter should be commented out, if you are using appendices after References
+	% Back Matter - NO comentar
 	\backmatter
 	
-	% Bibliografía	
-	\printbibliography[heading=bibintoc]	
 	% ***************************** Index ******************************
-	% VER QUE ES ESTO
-	\printthesisindex % If index is present
+	\printthesisindex % Índice alfabético, opcional.
 	% Apéndices
 	\begin{appendices} 
 		\include{Apendices/Apendice_A}
 		\include{Apendices/Apendice_B}
 	\end{appendices}
-	
-	
+	% Bibliografía	
+	\printbibliography[heading=bibintoc]	
 
 \end{document}

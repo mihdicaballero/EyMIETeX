@@ -42,11 +42,11 @@ por defecto de Harvard.
 defecto nomás? Dejamos por defecto.
 - [x] Definir tema de tutores, directores, co tutor. Qué términos tener y cuánta flexibilidad 
 dejar en la portada. Cuanto menos, mejor. Autor, director, co director (optativo).   
-- [ ] Ver qué hacemos con el formato de la portada. Jouglard comenta.
+- [ ] Ver qué hacemos con el formato de la portada. Ajustar parecido a plan de tesis.
 - [ ] Conseguir logo de maestría y de UTN en pdf y en buena calidad. Definir si va logo solo 
 de UTN o logo de maestría
-- [ ] Ver si precisamos o no lista de símbolos y abrevaciones. Ver PDF.
-- [ ] Ver si precisamos índice alfabético o no. Ver PDF.
-- [ ] Definir contenido y secciones del template o si se deja todo en blanco. Dejé alguna instrucción básica y algún ejemplo que traía.
+- [x] Ver si precisamos o no lista de símbolos y abrevaciones. Es opcional.
+- [x] Ver si precisamos índice alfabético o no. Es opcional.
+- [x] Definir contenido y secciones del template o si se deja todo en blanco. Dejé alguna instrucción básica y algún ejemplo que traía. Dejamos por defecto lo que trae.
 
 
