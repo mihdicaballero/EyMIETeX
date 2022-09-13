@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.25)  13 SEP 2022 00:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.25)  13 SEP 2022 00:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./tesis.tex
-(tesis.tex
+**./TFI.tex
+(TFI.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-08-23> (EyMIETeX.cls
 Document Class: EyMIETeX 12/09/2022 A Mg thesis class file by Mihdí Caballero 
@@ -689,9 +689,9 @@ Package tocbasic Info: setting babel extension for `nls' on input line 188.
 \nomitemsep=\skip69
 )
 \@nomenclaturefile=\write3
-\openout3 = `tesis.nlo'.
+\openout3 = `TFI.nlo'.
 
-Package nomencl Info: Writing nomenclature file tesis.nlo on input line 955.
+Package nomencl Info: Writing nomenclature file TFI.nlo on input line 955.
 ) (_settings/preamble.tex
 (C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
@@ -1154,12 +1154,12 @@ Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 (_settings/apa.tex
 Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined
 , overwriting on input line 6.
-)) (info.tex)
+)) (TFI-info.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 23
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 22
 .
 
 (C:\Users\Mihdi\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1ptm.fd
@@ -1169,35 +1169,34 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 LaTeX Warning: Unused global option(s):
     [times].
 
-(tesis.aux
+(TFI.aux
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
- (Portada/dedicatoria.aux) (Portada/agradecimientos.aux)
-(Portada/resumen.aux) (Capitulos/capitulo1.aux) (Capitulos/capitulo2.aux)
+ (Capitulos/capitulo1.aux) (Capitulos/capitulo2.aux)
 (Capitulos/capitulo3.aux) (Apendices/Apendice_A.aux) (Apendices/Apendice_B.aux)
 )
-\openout1 = `tesis.aux'.
+\openout1 = `TFI.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count501
@@ -1222,18 +1221,18 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 23.
-Package microtype Info: Applying patch `item' on input line 23.
-Package microtype Info: Applying patch `toc' on input line 23.
-Package microtype Info: Applying patch `eqnum' on input line 23.
-Package microtype Info: Applying patch `footnote' on input line 23.
+LaTeX Info: Redefining \microtypecontext on input line 22.
+Package microtype Info: Applying patch `item' on input line 22.
+Package microtype Info: Applying patch `toc' on input line 22.
+Package microtype Info: Applying patch `eqnum' on input line 22.
+Package microtype Info: Applying patch `footnote' on input line 22.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 23.
+LaTeX Info: Redefining \showhyphens on input line 22.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1241,11 +1240,10 @@ Package microtype Info: No adjustment of character kerning.
 (C:\Users\Mihdi\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-Package hyperref Info: Link coloring ON on input line 23.
-
-(tesis.out) (tesis.out)
+Package hyperref Info: Link coloring ON on input line 22.
+ (TFI.out) (TFI.out)
 \@outlinefile=\write5
-\openout5 = `tesis.out'.
+\openout5 = `TFI.out'.
 
 
 *geometry* driver: auto-detecting
@@ -1301,16 +1299,16 @@ File: spanish.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `tesis.bcf'.
+\openout4 = `TFI.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'tesis.bbl' found.
- (tesis.bbl)
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
+Package biblatex Info: ... file 'TFI.bbl' found.
+ (TFI.bbl)
+Package biblatex Info: Reference section=0 on input line 22.
+Package biblatex Info: Reference segment=0 on input line 22.
 \PHD@Title=\box115
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 27.
+ 26.
 
 (C:\Users\Mihdi\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -1320,35 +1318,35 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 27.
+ 26.
 
 (C:\Users\Mihdi\AppData\Roaming\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 27.
+ 26.
 
 (C:\Users\Mihdi\AppData\Roaming\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 27.
+ 26.
 
 (C:\Users\Mihdi\AppData\Roaming\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
-7.
+6.
 
 (C:\Users\Mihdi\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
 
 (C:\Users\Mihdi\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1360,7 +1358,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 <Figuras//logo_utn.jpg, id=75, 612.78937pt x 158.84344pt>
 File: Figuras//logo_utn.jpg Graphic file (type jpg)
 <use Figuras//logo_utn.jpg>
-Package pdftex.def Info: Figuras//logo_utn.jpg  used on input line 27.
+Package pdftex.def Info: Figuras//logo_utn.jpg  used on input line 26.
 (pdftex.def)             Requested size: 245.76576pt x 63.7059pt.
 \PHD@collegecrest=\box117
 \PHD@author=\box118
@@ -1374,65 +1372,36 @@ Package pdftex.def Info: Figuras//logo_utn.jpg  used on input line 27.
 
 
 {C:/Users/Mihdi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figuras//l
-ogo_utn.jpg>]
-\openout2 = `Portada/dedicatoria.aux'.
-
- (Portada/dedicatoria.tex) [2
-
-
-]
-\openout2 = `Portada/agradecimientos.aux'.
-
- (Portada/agradecimientos.tex) [3
-
-
-
-
-
-]
-\openout2 = `Portada/resumen.aux'.
-
-
-(Portada/resumen.tex) [4
-
-
-
-
-
-] (tesis.toc
+ogo_utn.jpg>] (TFI.toc
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 )
 \tf@toc=\write6
-\openout6 = `tesis.toc'.
+\openout6 = `TFI.toc'.
 
- [5
-
-
+ [2
 
 
-] (tesis.lof
+] (TFI.lof
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write7
-\openout7 = `tesis.lof'.
+\openout7 = `TFI.lof'.
 
- [6
+ [3
 
-] (tesis.lot
+] (TFI.lot
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lot=\write8
-\openout8 = `tesis.lot'.
+\openout8 = `TFI.lot'.
 
-
-No file tesis.nls.
-[7
+ [4
 
 ]
 \openout2 = `Capitulos/capitulo1.aux'.
@@ -1463,7 +1432,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 (C:\Users\Mihdi\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<Figuras/capitulo_2/x_vs_y.png, id=149, 578.16pt x 413.3844pt>
+<Figuras/capitulo_2/x_vs_y.png, id=134, 578.16pt x 413.3844pt>
 File: Figuras/capitulo_2/x_vs_y.png Graphic file (type png)
 <use Figuras/capitulo_2/x_vs_y.png>
 Package pdftex.def Info: Figuras/capitulo_2/x_vs_y.png  used on input line 42.
@@ -1478,8 +1447,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
  [3 <./Figuras/capitulo_2/x_vs_y.png (PNG copy)>]
 \openout2 = `Capitulos/capitulo3.aux'.
 
@@ -1501,7 +1470,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 
  (Apendices/Apendice_A.tex
 Ap\'{e}ndice A.
-<Figuras/apendice_A/x_vs_y.png, id=175, 578.16pt x 413.3844pt>
+<Figuras/apendice_A/x_vs_y.png, id=161, 578.16pt x 413.3844pt>
 File: Figuras/apendice_A/x_vs_y.png Graphic file (type png)
 <use Figuras/apendice_A/x_vs_y.png>
 Package pdftex.def Info: Figuras/apendice_A/x_vs_y.png  used on input line 11.
@@ -1525,28 +1494,27 @@ Ap\'{e}ndice B.
 
 
 
-] (tesis.aux
+] (TFI.aux
 LaTeX Info: Redefining \sptext on input line 21.
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
- (Portada/dedicatoria.aux) (Portada/agradecimientos.aux)
-(Portada/resumen.aux) (Capitulos/capitulo1.aux) (Capitulos/capitulo2.aux)
+ (Capitulos/capitulo1.aux) (Capitulos/capitulo2.aux)
 (Capitulos/capitulo3.aux) (Apendices/Apendice_A.aux) (Apendices/Apendice_B.aux)
 )
-Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 0861D284EA9DC8D46FFFA1F2D3AF2ABA;2926.
-Package logreq Info: Writing requests to 'tesis.run.xml'.
-\openout1 = `tesis.run.xml'.
+Package rerunfilecheck Info: File `TFI.out' has not changed.
+(rerunfilecheck)             Checksum: 5BA8049A898210844E1E42310FA8D601;2926.
+Package logreq Info: Writing requests to 'TFI.run.xml'.
+\openout1 = `TFI.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28848 strings out of 477843
- 511901 string characters out of 2833414
- 1407274 words of memory out of 3000000
- 47001 multiletter control sequences out of 15000+600000
+ 28754 strings out of 477843
+ 508171 string characters out of 2833414
+ 1397794 words of memory out of 3000000
+ 46936 multiletter control sequences out of 15000+600000
  540458 words of font info for 212 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,11n,120p,1132b,2897s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 125i,11n,120p,1130b,2897s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Mihdi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
 1200.pk>{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts
@@ -1555,9 +1523,9 @@ MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts
 b><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/M
 iKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on tesis.pdf (14 pages, 246301 bytes).
+Output written on TFI.pdf (11 pages, 243879 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
  83616 words of extra memory for PDF output out of 89155 (max. 10000000)
 

@@ -5,7 +5,7 @@
 %% Thesis template for the "Especialización y Maestría en Ingeniería Estructural" of Universidad Tecnológica Nacional (UTN), Argentina %%
 %%                                                                            %%
 %% Version: v1.0                                                              %%
-%% Authors: Mihdí Caballero                                                    %%
+%% Authors: Mihdí Caballero                                            
 %% License: MIT License (c) 2022 Mihdí Caballero 
 %% GitHub Repo: https://github.com/mihdicaballero/EyMIETeX
 
@@ -16,7 +16,7 @@
 
 % ************************ Class Identification ****************************
 \newcommand\fileversion{1.0}
-\newcommand\filedate{24/08/2022}
+\newcommand\filedate{12/09/2022}
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{EyMIETeX}[\filedate\space A Mg thesis class file
  by Mihdí Caballero (v\fileversion)]
@@ -865,24 +865,14 @@ wish to left align your text}
 	\vspace{.15\PHD@titlepagespacing}
 \fi
 
-% Title
-{\usebox{\PHD@Title}} % subtitle is defined
-
 
 % Crest
+\usebox{\PHD@crest}
 
-\ifPHD@collegeshield%
-	\vspace{.15\PHD@titlepagespacing}
-	{\usebox{\PHD@collegecrest}}
-	\vspace{.1\PHD@titlepagespacing}
-\else
-	\vspace{.25\PHD@titlepagespacing}
-	{\usebox{\PHD@crest}}
-	\vspace{.15\PHD@titlepagespacing}
-\fi
-
-
-
+% Title
+\vspace{.25\PHD@titlepagespacing}
+{\usebox{\PHD@Title}}\\ % subtitle is defined
+\vspace{.15\PHD@titlepagespacing}
 % Author
 {\usebox{\PHD@author}}
 \vspace*{1em}
@@ -902,13 +892,11 @@ wish to left align your text}
 
 % Submission Text
 {\usebox{\PHD@submission}}
-
+\vfill
 % Department and University
 {\usebox{\PHD@dept}}
-\vspace{.2\PHD@titlepagespacing}
-
+\vspace*{0.3em} \par
 % College and degree date
-\vfill
 {\usebox{\PHD@collegedate}}
     
 \end{center}
@@ -1160,7 +1148,7 @@ wish to left align your text}
   \begin{minipage}[c]{\textwidth}
     \begin{center}
       \large \submissiontext \par
-      \large \textit {\@degreetitle} \par
+      \Large \textit {\@degreetitle} \par
       \vspace*{1em}
     \end{center}
   \end{minipage}
@@ -1179,11 +1167,9 @@ wish to left align your text}
     \end{center}
   }{
     % college is defined
-    \begin{minipage}[b]{0.49\textwidth}
-      \flushleft\@college
-    \end{minipage}
-    \begin{minipage}[b]{0.49\textwidth}
-      \flushright \@degreedate
+    \begin{minipage}[b]{0.95\textwidth}
+    	\centering
+    	\@college \\ \@degreedate
     \end{minipage}
   } % college is defined
 \end{minipage}

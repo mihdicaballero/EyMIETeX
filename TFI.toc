@@ -1,7 +1,7 @@
 \thispagestyle {empty}
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {vi}}{chapter*.4}%
-\contentsline {chapter}{\'{I}ndice de tablas}{\es@scroman {vii}}{chapter*.5}%
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {iii}}{chapter*.2}%
+\contentsline {chapter}{\'{I}ndice de tablas}{\es@scroman {iv}}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Objetivo}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Ejemplo de índice}{1}{subsection.1.1.1}%
@@ -16,4 +16,4 @@
 \contentsline {section}{\numberline {A.1}Sección del apéndice}{5}{section.alph1.Alph1.1}%
 \contentsline {chapter}{Ap\'{e}ndice \numberline {B}Segundo}{6}{appendix.alph1.Alph2}%
 \contentsline {section}{\numberline {B.1}Sección del apéndice}{6}{section.alph1.Alph2.1}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{7}{appendix*.8}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{7}{appendix*.6}%

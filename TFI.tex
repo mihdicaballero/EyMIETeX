@@ -7,11 +7,10 @@
 % 	"print" para imprimir en papel, sin hiperreferencias.
 % 	"oneside" o "twoside" para modo simple faz o doble faz
 % 	"chapter" habilita solo el capítulo especificado y sus referencias.
-% 	"index" para generar el índice alfabético
 
 % ******************************* Preámbulo ********************************
 \input{_settings/preamble}	% Preámbulo con paquetes y comandos definidos por el usuario
-\input{tesis-info}			% Información de la tesis, autor y universidad.
+\input{TFI-info}			% Información de la tesis, autor y universidad.
 
 % ************************** Modo Capítulo *******************************
 % El modo de capítulo permite al usuario imprimir solo capítulos particulares con referencias. Título, Contenido, Frontmatter están deshabilitados por defecto
@@ -25,16 +24,10 @@
 	\frontmatter
 	% Creación de título
 	\maketitle
-	% Dedicatoria, agradecimientos y resumen
-	\include{Portada/dedicatoria}
-	\include{Portada/agradecimientos}
-	\include{Portada/resumen}
 	% Tabla de contenidos, lista de figuras y tablas
 	\tableofcontents	
 	\listoffigures
 	\listoftables
-	
-	\printnomenclature % Lista de símbolos y abreviaciones, opcional
 	
 	%  Main Matter - NO comentar
 	\mainmatter
@@ -43,8 +36,6 @@
 	\include{Capitulos/capitulo2}
 	\include{Capitulos/capitulo3}
 		
-	% ***************************** Index ******************************
-	\printthesisindex % Índice alfabético, opcional.
 	% Apéndices
 	\begin{appendices} 
 		\include{Apendices/Apendice_A}

@@ -42,11 +42,14 @@ por defecto de Harvard.
 defecto nomás? Dejamos por defecto.
 - [x] Definir tema de tutores, directores, co tutor. Qué términos tener y cuánta flexibilidad 
 dejar en la portada. Cuanto menos, mejor. Autor, director, co director (optativo).   
-- [ ] Ver qué hacemos con el formato de la portada. Ajustar parecido a plan de tesis.
+- [ x Ver qué hacemos con el formato de la portada. Ajustar parecido a plan de tesis.
 - [ ] Conseguir logo de maestría y de UTN en pdf y en buena calidad. Definir si va logo solo 
 de UTN o logo de maestría
 - [x] Ver si precisamos o no lista de símbolos y abrevaciones. Es opcional.
 - [x] Ver si precisamos índice alfabético o no. Es opcional.
 - [x] Definir contenido y secciones del template o si se deja todo en blanco. Dejé alguna instrucción básica y algún ejemplo que traía. Dejamos por defecto lo que trae.
-
+- [ ] Cambiar logo para especialización
+- [ ] Tener 2 casos cargados: especialización (TFI) y magíster (tesis)
+- [x] Ver numeración con letras de los apéndices. También para sección y para ecuaciones con la letra.
+- [x] Plan de tesis: que diga como en tesis arriba de fecha la universidad, tal cual. Poner la facultad abajo de la universidad. Fijo universidad y se selecciona regional y fecha.
 
