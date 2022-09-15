@@ -798,7 +798,7 @@ wish to left align your text}
 \newcommand{\advisorlinewidth}[1]{\renewcommand{\@advisorlinewidth}{#1}}
 
 % Submission Text
-\newcommand{\submissiontext}{Esta tesis se presenta para la obtención del título de}
+\newcommand{\submissiontext}{\scshape Tesis para la obtención del título de}
 
 % keywords (These keywords will appear in the PDF meta-information
 % called `pdfkeywords`.)
@@ -868,19 +868,21 @@ wish to left align your text}
 
 % Crest
 \usebox{\PHD@crest}
-
+% Submission Text
+\null
+\vspace{.15\PHD@titlepagespacing}
+{\usebox{\PHD@submission}}\\
+\vspace{.15\PHD@titlepagespacing}
 % Title
-\vspace{.25\PHD@titlepagespacing}
 {\usebox{\PHD@Title}}\\ % subtitle is defined
 \vspace{.15\PHD@titlepagespacing}
 % Author
 {\usebox{\PHD@author}}
-\vspace*{1em}
+\vspace{.1\PHD@titlepagespacing}
 
 % Supervisor
 \ifPHD@supervisor%
 {\usebox{\PHD@supervisor}}
-\vspace*{0.5em}
 \fi
 
 % Advisor
@@ -889,9 +891,6 @@ wish to left align your text}
 \vspace*{0.5em}
 \fi
 
-
-% Submission Text
-{\usebox{\PHD@submission}}
 \vfill
 % Department and University
 {\usebox{\PHD@dept}}
@@ -1094,7 +1093,7 @@ wish to left align your text}
 \newsavebox{\PHD@author}
 \begin{lrbox}{\PHD@author}
   \begin{minipage}[c]{\textwidth}
-    \centering \Large \bfseries{\@author}
+    \centering \LARGE \bfseries{\@author}
       \vspace{0.5em}   
   \end{minipage}
 \end{lrbox}
@@ -1137,8 +1136,8 @@ wish to left align your text}
 \newsavebox{\PHD@dept}
 \begin{lrbox}{\PHD@dept}
   \begin{minipage}[c]{\textwidth}
-    \centering {\large \@dept \par}
-	       {\large \@university \par}
+    \centering {\@university \par}
+	       {\@dept \par}
   \end{minipage}
 \end{lrbox}
 
@@ -1147,8 +1146,8 @@ wish to left align your text}
 \begin{lrbox}{\PHD@submission}
   \begin{minipage}[c]{\textwidth}
     \begin{center}
-      \large \submissiontext \par
-      \Large \textit {\@degreetitle} \par
+      \Large \submissiontext \par
+      \Large {\scshape\@degreetitle} \par
       \vspace*{1em}
     \end{center}
   \end{minipage}
@@ -1159,7 +1158,7 @@ wish to left align your text}
 \newsavebox{\PHD@collegedate}
 \begin{lrbox}{\PHD@collegedate}
 \begin{minipage}[c]{\textwidth}
-  \large
+
   \ifthenelse{\equal{\@college}{}}{
     % college is not defined
     \begin{center}

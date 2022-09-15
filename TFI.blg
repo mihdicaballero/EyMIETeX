@@ -1,19 +1,19 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'TFI.blg'
-[136] biber-MSWIN64:340> INFO - === 
-[186] Biber.pm:418> INFO - Reading 'TFI.bcf'
-[370] Biber.pm:978> INFO - Found 3 citekeys in bib section 0
-[394] Biber.pm:4401> INFO - Processing section 0
-[407] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliografia/bibliografia.bib' for section 0
-[477] bibtex.pm:1713> INFO - LaTeX decoding ...
-[493] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliografia/bibliografia.bib'
-[545] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[545] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[545] Biber.pm:4221> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[557] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[557] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[557] Biber.pm:4221> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[561] bbl.pm:654> INFO - Writing 'TFI.bbl' with encoding 'UTF-8'
-[564] bbl.pm:757> INFO - Output to TFI.bbl
-[564] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Mihdi\AppData\Local\Temp\biber_tmp_BYKZ\499af1e6906591d6961f19d66c065a09_320632.utf8, line 6, warning: 172 characters of junk seen at toplevel
-[565] Biber.pm:132> INFO - WARNINGS: 1
+[128] biber-MSWIN64:340> INFO - === 
+[179] Biber.pm:418> INFO - Reading 'TFI.bcf'
+[333] Biber.pm:978> INFO - Found 3 citekeys in bib section 0
+[357] Biber.pm:4401> INFO - Processing section 0
+[369] Biber.pm:4592> INFO - Looking for bibtex file 'Bibliografia/bibliografia.bib' for section 0
+[436] bibtex.pm:1713> INFO - LaTeX decoding ...
+[454] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliografia/bibliografia.bib'
+[509] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[509] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[509] Biber.pm:4221> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[526] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[526] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[526] Biber.pm:4221> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[530] bbl.pm:654> INFO - Writing 'TFI.bbl' with encoding 'UTF-8'
+[533] bbl.pm:757> INFO - Output to TFI.bbl
+[533] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Mihdi\AppData\Local\Temp\biber_tmp_NAN5\499af1e6906591d6961f19d66c065a09_14632.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[534] Biber.pm:132> INFO - WARNINGS: 1
