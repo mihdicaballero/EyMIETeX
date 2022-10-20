@@ -83,6 +83,19 @@ La página principal (página de título) cambia de tamaño para adaptarse a la 
 * Para cambiar la versión de borrador. La versión de borrador predeterminada es v1.0.
       \SetDraftVersion{v1.1}
 
+### Referencias bibliográficas
+* Para poder procesar correctamente la bilbiografía en LaTeX hay que ajustar el orden de compilación por defecto que viene en cualquier programa que trabaje con archivos .tex. En este caso, se muestra el ejemplo con TeXstudio.
+
+Lo que hay que hacer es ir a `Opciones > Configurar TeXstudio` y dentro de la pestaña `Compilar` se debe ajustar los comandos de Compilador por defecto y Herramienta
+bibliográfica por defecto. Para el primer caso, se hace clic en el botón `Configurar` y se debe dejar la siguiente secuencia de órdenes:
+
+`PdfLaTeX > Biber > PdfLaTeX > PdfLaTeX`
+
+Para el caso de configuraciones de bibliografía solo debe tener la órden de Biber. 
+
+Para más información sobre referencias bibliográficas en LaTeX y la configuración ir a este [link.]{https://github.com/mihdicaballero/LaTeX-Projects/tree/main/BibLaTeX_guide_ES}
+
+
 ### Definición de nomenclatura
 
 * Para usar la nomenclatura en sus capítulos:
@@ -126,6 +139,12 @@ Para incluir notas de tareas personalizadas en su documento pdf, use `\mynote{Te
 *   Open issues se pueden ver en [https://github.com/mihdicaballero/EyMIETeX/issues](https://github.com/mihdicaballero/EyMIETeX/issues). Si desea agregar una nueva característica a la plantilla, cree un problema y etiquételo como una mejora.
 *   Por favor [hacer un fork en github](https://github.com/mihdicaballero/EyMIETeX/fork) y cree una "pull request", si desea contribuir al repositorio.
 
+--------------------------------------------------------------------------------
+
+## Aprender LaTeX
+
+*     Podés aprender LaTeX viendo los tutoriales que tengo en mi canal de YouTube llamado [Me lo dijo un ingeniero]{https://www.youtube.com/channel/UCqglEznvF-ZnrmDbwQjVpIg} 
+*     Si querés aprender de manera más completa y seria LaTeX, podés ver mi curso online en Udemy llamado [LaTeX - El curso deifnitivo]{https://www.udemy.com/course/latex-el-curso-definitivo/}
 --------------------------------------------------------------------------------
 
 ## Basado en
