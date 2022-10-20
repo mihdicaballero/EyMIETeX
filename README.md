@@ -143,8 +143,8 @@ Para incluir notas de tareas personalizadas en su documento pdf, use `\mynote{Te
 
 ## Aprender LaTeX
 
-*     Podés aprender LaTeX viendo los tutoriales que tengo en mi canal de YouTube llamado [Me lo dijo un ingeniero]{https://www.youtube.com/channel/UCqglEznvF-ZnrmDbwQjVpIg} 
-*     Si querés aprender de manera más completa y seria LaTeX, podés ver mi curso online en Udemy llamado [LaTeX - El curso deifnitivo]{https://www.udemy.com/course/latex-el-curso-definitivo/}
+* Podés aprender LaTeX viendo los tutoriales que tengo en mi canal de YouTube llamado [Me lo dijo un ingeniero.](https://www.youtube.com/channel/UCqglEznvF-ZnrmDbwQjVpIg)
+* Si querés aprender de manera más completa y seria LaTeX, podés ver mi curso online en Udemy llamado [LaTeX - El curso definitivo.](https://www.udemy.com/course/latex-el-curso-definitivo/)
 --------------------------------------------------------------------------------
 
 ## Basado en
